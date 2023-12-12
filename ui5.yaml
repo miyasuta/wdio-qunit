@@ -1,6 +1,6 @@
 specVersion: "3.0"
 metadata:
-  name: wdioQunit
+  name: wdioqunit
 type: application
 framework:
   name: OpenUI5
