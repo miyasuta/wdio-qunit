@@ -17,7 +17,10 @@
 		"karma-ci": "karma start karma-ci.conf.js",
 		"karma-ci-cov": "karma start karma-ci-cov.conf.js",
 		"test": "npm run lint && npm run karma-ci-cov",
-		"wdi5": "wdio run ./webapp/test/e2e/wdio.conf.js"
+		"wdi5": "wdio run ./webapp/test/e2e/wdio.conf.js",
+		"test:qunit": "wdio run ./webapp/test/unit/wdio.conf.unit.js",
+		"test:integration": "wdio run ./webapp/test/integration/wdio.conf.integration.js",
+		"test:e2e": "wdio run ./webapp/test/e2e/wdio.conf.e2e.js"
 	},
 	"devDependencies": {
 		"@ui5/cli": "^3.6.1",
